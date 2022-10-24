@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    background-color: rgb(237, 225, 211);
+
+}
+.container__secundario{
+background-color:#FFFFFF;
+height: 400px;
+width: 600px;
+position: absolute;
+left: 50%;
+top: 50%;
+margin-left: -300px;
+margin-top: -200px;
+display: grid;
+grid-template-columns: auto 1fr;
+border-radius: 10px;
+}
+.container__imagem{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
+.perfume__info{
+    padding: 2rem;
+}
+.perfume{
+    font-family: 'Courier New', Courier, monospace;
+}
+.perfume__nome{
+    font-size: 2rem;
+}
+.perfume__descricao{
+    margin: 10px 0;
+    color: #6f7274;
+    line-height: 1.5em;
+}
+.preco__atual{
+    font-size: 2rem;
+    color: rgb(16, 125, 16);
+    font-weight: 900;
+}
+.preco{
+   text-decoration:line-through;
+   font-weight: 100;
+   color: #6f7274;
+   padding: 2rem;
+}
+.botao{
+    color: #FFFFFF;
+    background-color:rgb(16, 125, 16) ;
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: none;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.botao svg{
+    margin-right: 1em;
+}
